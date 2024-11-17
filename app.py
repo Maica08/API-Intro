@@ -39,6 +39,8 @@ def get_book(book_id):
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), HTTPStatus.INTERNAL_SERVER_ERROR
 
+
+# NOTE: idbooks is being incremented automatically
 @app.route('/books', methods=['POST'])
 def create_book():
     try:

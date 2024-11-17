@@ -28,7 +28,7 @@ CREATE TABLE `books` (
   `author` varchar(45) DEFAULT NULL,
   `year` int(11) DEFAULT NULL,
   PRIMARY KEY (`idbooks`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `books` (
 
 LOCK TABLES `books` WRITE;
 /*!40000 ALTER TABLE `books` DISABLE KEYS */;
-INSERT INTO `books` VALUES (1,'On the Road','Jack Kerouac',1957),(2,'Harry Potter and the Philosopher\'s Stone','J.K. Rowling',1997);
+INSERT INTO `books` VALUES (1,'On the Road','Jack Kerouac',1957),(2,'Harry Potter and the Half Blood Prince','J.K. Rowling',2005);
 /*!40000 ALTER TABLE `books` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-11-17 21:26:29
+-- Dump completed on 2024-11-17 21:42:37
